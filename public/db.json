@@ -1,0 +1,68 @@
+{
+  "mobile": [  
+  {
+  "id":1,
+  "Name":"iPhone 14 Pro Max",
+  "Company": "APPLE",
+  "Release_Year": "2022",
+  "Price": "1299 $",
+  "Rating": 8.5,
+  "Positive": "Always-on-display",
+  "Negative": "No Fast Charging",
+  "Reviews" : " If you're an Apple fan who's upgrading from an iPhone X or 11, the Apple iPhone 14 could be a smart choice."
+},
+{
+  "id":2,
+  "Name":"Galaxy S22 ULTRA",
+  "Company": "SAMSUNG",
+  "Release_Year": "2022",
+  "Price": "1199 $",
+  "Rating": 7.8,
+  "Positive": "Best Camera with AI Features",
+  "Negative": "No Micro SD Card Slot",
+  "Reviews" : " The Samsung Galaxy S22 Ultra delivers a built-in S Pen, brighter display and lots of camera upgrades in a sleek design."
+},
+{
+  "id":3,
+  "Name":"Pixel 7 PRO",
+  "Company": "GOOGLE",
+  "Release_Year": "2022",
+  "Price": "949 $",
+  "Rating": 6.1,
+  "Positive": "Great Camera Experience",
+  "Negative": "No fast charging technology",
+  "Reviews" : " The smaller of the Google Pixel 7 series models possesses not only a more compact form factor than the Pro model. "
+},
+{
+  "id":4,
+  "Name":"10 Pro",
+  "Company": "ONE PLUS",
+  "Release_Year": "2022",
+  "Price": "649 $",
+  "Rating": 6.1,
+  "Positive": "Efficient Display Performance",
+  "Negative": "Poor Battery Life",
+  "Reviews" : " It’s a likable device, but OnePlus still has some work to do.."
+},
+{
+  "id":5,
+  "Name":"1! Pro",
+  "Company": "ONE PLUS",
+  "Release_Year": "2022",
+  "Price": "649 $",
+  "Rating": 6.1,
+  "Positive": "Efficient Display Performance",
+  "Negative": "Poor Battery Life",
+  "Reviews" : " It’s a likable device, but OnePlus still has some work to do.."
+},
+{
+  "id":6,
+  "Name":"Find X5 PRO",
+  "Company": "OPPO",
+  "Release_Year": "2022",
+  "Price": "769 $",
+  "Rating": 6.0,
+  "Positive": "Long Lasting Battery",
+  "Negative": "Bit Expensive",
+  "Reviews" : " There is a dxomark score for their flagship find x5 pro. Check again. It scored a lot higher than the regular find x5"
+}]}

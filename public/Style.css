@@ -1,0 +1,273 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.001fr 1fr 0.02fr;
+    grid-template-areas: 
+    "nav nav"
+    "border1 border1"
+    "column1 column2"
+    "footer footer";
+    height:100vh;
+}
+html{
+    overflow:scroll;
+}
+nav{
+    background-color:rgb(253, 233, 221);;
+    height:70px;
+    border-radius: 20px;
+    width:1565px;
+    margin-bottom: 10px;
+    grid-area: nav;
+}
+
+a{
+
+    float:right;
+    display: block;
+    color:black;
+    padding: 27px 20px;
+    font-size: 13px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    border-radius: 25px;
+
+}
+#contact:hover,#menu-item:hover{
+    background-color: rgb(17, 15, 15);
+    color:rgb(218, 253, 255);
+    height: 17px;
+}
+#contact{
+    padding-right: 40px;
+}
+
+.search-menu{
+
+    float:left;
+    display: block;
+    padding-top: 22px;
+    
+}
+.search{
+    width:320px;
+    text-align:end;
+    font-style: italic;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    padding:5px;
+    padding-right:10px;
+    border-radius: 50px;
+    border-style: groove;
+    border:1111px;
+    border-color: black;
+}
+.search-image{
+    float:left;
+    display:block;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#image{
+    padding:10px;
+}
+
+#menu-icons{
+    padding-right: 4px;
+}
+.border{
+    background-color: black;
+    min-height: 5px;
+    margin-bottom:10px;
+    border-radius:20px 40px;
+    grid-area:border1;
+}
+
+.row{
+    overflow:hidden;
+    margin-bottom:2px;
+    background-color: none;
+}
+section{
+    width:745px;
+    height:1270px;
+    margin-right:5px;
+    border-radius: 20px;
+    background-color: rgb(192, 155, 215);
+    overflow-y: visible;
+    grid-area: column1;
+}
+.me{
+    width:350px;
+    border-radius: 20px;
+}
+.profile{
+    padding-left: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.content{
+
+    padding-left:30px;
+    padding-top:5px;
+    padding-right:20px;
+    padding-bottom: -5px;
+}
+
+
+h1{
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    font-weight:lighter;
+}
+p,li{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Comfortaa', cursive;
+}
+#journal{
+    font-size: 20px;
+    float:none;
+}
+
+#skills{
+    padding-bottom: 15px;
+}
+
+#radio{
+    width:24px;
+}
+.radio-icons{
+    display:inline-block;
+    height:45px;
+}
+.lists{
+   width: 160px;
+   height:45px;
+   padding-top:0px;
+   float:left;
+   text-align:center;
+}
+.ricons{
+    width:160px;
+    float:right;
+    height:45px;
+}
+#radio{
+    padding-top: 21px;
+}
+#italy{
+    font-style: italic;
+}
+aside{
+    background-color: rgb(218, 253, 255);
+    float:right;
+    width:750px;
+    height:1270px;
+    border-radius: 20px;
+    grid-area:column2;
+    overflow-y: visible;
+}
+footer{
+    border-radius: 20px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    grid-area: footer;
+    grid-row-start: footer;
+    grid-column-start: footer;
+    grid-row-end: footer;
+    grid-column-end: footer;
+    
+}
+#footer-icons{
+    float:none;
+    font-size: 30px;
+    color:rgb(253, 233, 221);
+    display:inline-block;
+   
+}
+
+#mycontact{
+    padding-top: 30px;
+    color:rgb(253, 233, 221);
+    font-family: 'Comfortaa', cursive;
+}
+.bar-icon{
+    display: none;
+}
+
+@media only screen and (max-width:500px){
+    body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.001fr 1fr 1fr 0.02fr;
+        grid-template-areas: 
+        "nav"
+        "border1"
+        "column1"
+        "column2"
+        "footer";
+        grid-gap:0.01rem;
+    }
+    .bar-icon{
+        display: inline-block;
+    }
+
+    nav,footer,section,aside{
+        width:10px;    
+    }
+    .border{
+        width:470px;
+    }
+    .search-menu{
+        display:none;
+    }
+    #menu-item{
+        display:none;
+    }
+    #contact{
+        display:none;
+    }
+    section{
+        height: 1025px;
+        margin-bottom: 10px;
+    }
+    aside{
+        height:1190px;
+    }
+.me{
+    width:200px;
+}
+.profile{
+    padding-left: 135px;
+}
+
+h1{
+    font-size: 20px;
+}
+p,li{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+#journal{
+    font-size: 20px;
+    float:none;
+}
+
+#journal{
+    font-size: 15px;
+    float:none;
+}
+#footer-icons{
+    width:100px;
+    left:50px;
+    font-size:10px;
+    
+}
+
+}
