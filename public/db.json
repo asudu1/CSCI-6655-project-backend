@@ -5,7 +5,7 @@
   "Company": "APPLE",
   "Release_Year": "2022",
   "Price": "1299 $",
-  "Rating": 8.5,
+  "Rating": "8.5/10",
   "Positive": "Always-on-display",
   "Negative": "No Fast Charging",
   "Reviews" : " If you're an Apple fan who's upgrading from an iPhone X or 11, the Apple iPhone 14 could be a smart choice."
@@ -16,7 +16,7 @@
   "Company": "SAMSUNG",
   "Release_Year": "2022",
   "Price": "1199 $",
-  "Rating": 7.8,
+  "Rating": "7.8/10",
   "Positive": "Best Camera with AI Features",
   "Negative": "No Micro SD Card Slot",
   "Reviews" : " The Samsung Galaxy S22 Ultra delivers a built-in S Pen, brighter display and lots of camera upgrades in a sleek design."
@@ -27,10 +27,10 @@
   "Company": "GOOGLE",
   "Release_Year": "2022",
   "Price": "949 $",
-  "Rating": 6.1,
+  "Rating": "6.5/10",
   "Positive": "Great Camera Experience",
   "Negative": "No fast charging technology",
-  "Reviews" : " The smaller of the Google Pixel 7 series models possesses not only a more compact form factor than the Pro model. "
+  "Reviews" : " The Google Pixel 7 series models possesses a more compact form factor than the other Pro model from the google pixels. "
 },
 {
   "id":4,
@@ -38,21 +38,21 @@
   "Company": "ONE PLUS",
   "Release_Year": "2022",
   "Price": "649 $",
-  "Rating": 6.1,
+  "Rating": "6.1/10",
   "Positive": "Efficient Display Performance",
   "Negative": "Poor Battery Life",
-  "Reviews" : " It’s a likable device, but OnePlus still has some work to do.."
+  "Reviews" : " It is a likable device, but OnePlus still has some changes that it need to work on it to make it more powerful competitor."
 },
 {
   "id":5,
-  "Name":"1! Pro",
-  "Company": "ONE PLUS",
+  "Name":"12 Pro 5G",
+  "Company": "XIAOMI",
   "Release_Year": "2022",
-  "Price": "649 $",
-  "Rating": 6.1,
-  "Positive": "Efficient Display Performance",
-  "Negative": "Poor Battery Life",
-  "Reviews" : " It’s a likable device, but OnePlus still has some work to do.."
+  "Price": "559 $",
+  "Rating": "6.1/10",
+  "Positive": "Snapdragon 8G Processor with AMOLED Screen",
+  "Negative": "Restricted internal storage",
+  "Reviews" : " The Pro version of Xiaomi Mi 12, assures a promising user experience in the long run with its high-ended features."
 },
 {
   "id":6,
@@ -60,8 +60,8 @@
   "Company": "OPPO",
   "Release_Year": "2022",
   "Price": "769 $",
-  "Rating": 6.0,
+  "Rating": "6.0/10",
   "Positive": "Long Lasting Battery",
   "Negative": "Bit Expensive",
-  "Reviews" : " There is a dxomark score for their flagship find x5 pro. Check again. It scored a lot higher than the regular find x5"
+  "Reviews" : " There is a dxomark score for their flagship find x5 pro. Check again. It scored a lot higher than the regular find x5 device."
 }]
