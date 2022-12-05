@@ -1,5 +1,4 @@
-{
-  "mobile": [  
+[  
   {
   "id":1,
   "Name":"iPhone 14 Pro Max",
@@ -65,4 +64,4 @@
   "Positive": "Long Lasting Battery",
   "Negative": "Bit Expensive",
   "Reviews" : " There is a dxomark score for their flagship find x5 pro. Check again. It scored a lot higher than the regular find x5"
-}]}
+}]

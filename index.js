@@ -56,15 +56,5 @@ const server = http.createServer((req, res)=>{
     });
 }
 });
-
-const jsonServer = require('json-server');
-const router = jsonServer.router('db.json'); // <== Will be created later
-const middlewares = jsonServer.defaults();
-
-
-server.use(middlewares);
-server.use(router);
-
-
 const PORT = process.env.PORT || 5400;
 server.listen(PORT,()=>console.log(`Server is running successfully and the port number is ${PORT}`))
